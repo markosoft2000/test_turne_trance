@@ -1,0 +1,151 @@
+         <SIG_AirShopRS CustomerID="TestUser" SessionID="1302042125432733625" ProcessingTime="00:00:05.590340">
+            <Result>SUCCESS</Result>
+            <ShopOptions>
+                <ShopOption OptionRef="0" Currency="RUB" Total="37704.00" Airlines="U6">
+                  <ItineraryOptions>
+                     <ItineraryOption ODRef="01" From="DME" To="OVB" Date="2013-06-05" SeatsAvailable="4" TravelTime="P0DT7H15M0S" ItineraryRef="0">
+                        <FlightSegment FlightRef="20" Airline="U6" Flight="261" Date="2013-06-05" Equipment="320">
+                           <Departure Airport="DME" City="MOW" Terminal="" Time="2013-06-05T10:00:00+04:00"/>
+                           <Arrival Airport="SVX" City="SVX" Terminal="" Time="2013-06-05T14:15:00+06:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="X" ReservationRef="20" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                        <FlightSegment FlightRef="21" Airline="U6" Flight="355" Date="2013-06-05" Equipment="320">
+                           <Departure Airport="SVX" City="SVX" Terminal="" Time="2013-06-05T16:45:00+06:00"/>
+                           <Arrival Airport="OVB" City="OVB" Terminal="" Time="2013-06-05T20:15:00+07:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="X" ReservationRef="21" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                     </ItineraryOption>
+                     <ItineraryOption ODRef="back02" From="OVB" To="DME" Date="2013-06-25" SeatsAvailable="4" TravelTime="P0DT6H0M0S" ItineraryRef="1">
+                        <FlightSegment FlightRef="22" Airline="U6" Flight="290" Date="2013-06-25" Equipment="320">
+                           <Departure Airport="OVB" City="OVB" Terminal="" Time="2013-06-25T16:15:00+07:00"/>
+                           <Arrival Airport="SVX" City="SVX" Terminal="" Time="2013-06-25T17:20:00+06:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="N" ReservationRef="22" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                        <FlightSegment FlightRef="23" Airline="U6" Flight="266" Date="2013-06-25" Equipment="320">
+                           <Departure Airport="SVX" City="SVX" Terminal="" Time="2013-06-25T18:40:00+06:00"/>
+                           <Arrival Airport="DME" City="MOW" Terminal="" Time="2013-06-25T19:15:00+04:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="N" ReservationRef="23" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                     </ItineraryOption>
+                  </ItineraryOptions>
+                  <FareInfo>
+                     <Fares>
+                        <Fare FareRef="10">
+                           <PaxType AgeCat="ADT" Count="2"/>
+                           <Itinerary>
+                              <FlightSegmentDetails SegmentNumber="1" ReservationRefs="20" FareBasis="WRT"/>
+                              <FlightSegmentDetails SegmentNumber="2" ReservationRefs="21" FareBasis="XOW"/>
+                              <FlightSegmentDetails SegmentNumber="3" ReservationRefs="22" FareBasis="XOW"/>
+                              <FlightSegmentDetails SegmentNumber="4" ReservationRefs="23" FareBasis="WRT"/>
+                           </Itinerary>
+                           <Price Total="37704.01" Currency="RUB" BaseCurrency="RUB" EquivFare="18000.00" Taxes="852.00" BaseFare="18000.00"/>
+                           <Taxes>
+                              <Tax TicketCode="YR" Amount="492.00"/>
+                              <Tax TicketCode="ZZ" Amount="360.00"/>
+                           </Taxes>
+                           <TicketStock CRS="1G" StockProvider="TCH" ValidatingCarrier="U6" AcctgCode="262"/>
+                        </Fare>
+                        <Fare FareRef="11">
+                           <PaxType AgeCat="INF" Count="1" PTC="INF"/>
+                           <Itinerary>
+                              <FlightSegmentDetails SegmentNumber="1" ReservationRefs="20" FareBasis="XSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="2" ReservationRefs="21" FareBasis="XSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="3" ReservationRefs="22" FareBasis="NSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="4" ReservationRefs="23" FareBasis="NSVXOW"/>
+                           </Itinerary>
+                           <Price Total="1000.02" Currency="RUB" BaseCurrency="RUB" EquivFare="1000.00" Taxes="0.00" BaseFare="1000.00"/>
+                           <Taxes/>
+                           <TicketStock CRS="1G" StockProvider="TCH" ValidatingCarrier="U6" AcctgCode="262"/>
+                        </Fare>
+                     </Fares>
+                     <Ticketing eTicket="true" TimeLimit="2013-02-07T03:59:00+04:00"/>
+                     <Changes>
+                        <VoluntaryRefund PenaltyType="5" PenaltyText="refundable with penalty in some cases"/>
+                     </Changes>
+                  </FareInfo>
+                  <BookingGuidelines RussianNamesSupported="true"/>
+               </ShopOption>
+            </ShopOptions>
+            <ShopOptions>
+                <ShopOption OptionRef="0" Currency="RUB" Total="37704.00" Airlines="U6">
+                  <ItineraryOptions>
+                     <ItineraryOption ODRef="01" From="DME" To="OVB" Date="2013-06-05" SeatsAvailable="4" TravelTime="P0DT7H15M0S" ItineraryRef="0">
+                        <FlightSegment FlightRef="20" Airline="U6" Flight="261" Date="2013-06-05" Equipment="320">
+                           <Departure Airport="DMA" City="MOW" Terminal="" Time="2013-06-05T10:00:00+04:00"/>
+                           <Arrival Airport="SVX" City="SVX" Terminal="" Time="2013-06-05T14:15:00+06:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="X" ReservationRef="20" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                        <FlightSegment FlightRef="21" Airline="U6" Flight="355" Date="2013-06-05" Equipment="320">
+                           <Departure Airport="SVX" City="SVX" Terminal="" Time="2013-06-05T16:45:00+06:00"/>
+                           <Arrival Airport="OVB" City="OVB" Terminal="" Time="2013-06-05T20:15:00+07:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="X" ReservationRef="21" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                     </ItineraryOption>
+                     <ItineraryOption ODRef="back02" From="OVB" To="DME" Date="2013-06-25" SeatsAvailable="4" TravelTime="P0DT6H0M0S" ItineraryRef="1">
+                        <FlightSegment FlightRef="22" Airline="U6" Flight="290" Date="2013-06-25" Equipment="320">
+                           <Departure Airport="OVB" City="OVB" Terminal="" Time="2013-06-25T16:15:00+07:00"/>
+                           <Arrival Airport="SVX" City="SVX" Terminal="" Time="2013-06-25T17:20:00+06:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="N" ReservationRef="22" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                        <FlightSegment FlightRef="23" Airline="U6" Flight="266" Date="2013-06-25" Equipment="320">
+                           <Departure Airport="SVX" City="SVX" Terminal="" Time="2013-06-25T18:40:00+06:00"/>
+                           <Arrival Airport="DME" City="MOW" Terminal="" Time="2013-06-25T19:15:00+04:00"/>
+                           <ReservationDetails>
+                              <Reservation RBD="N" ReservationRef="23" Cabin="Economy" SeatCount="2" CRS="1G"/>
+                           </ReservationDetails>
+                        </FlightSegment>
+                     </ItineraryOption>
+                  </ItineraryOptions>
+                  <FareInfo>
+                     <Fares>
+                        <Fare FareRef="10">
+                           <PaxType AgeCat="ADT" Count="2"/>
+                           <Itinerary>
+                              <FlightSegmentDetails SegmentNumber="1" ReservationRefs="20" FareBasis="WRT"/>
+                              <FlightSegmentDetails SegmentNumber="2" ReservationRefs="21" FareBasis="XOW"/>
+                              <FlightSegmentDetails SegmentNumber="3" ReservationRefs="22" FareBasis="XOW"/>
+                              <FlightSegmentDetails SegmentNumber="4" ReservationRefs="23" FareBasis="WRT"/>
+                           </Itinerary>
+                           <Price Total="37704.00" Currency="RUB" BaseCurrency="RUB" EquivFare="18000.00" Taxes="852.00" BaseFare="18000.00"/>
+                           <Taxes>
+                              <Tax TicketCode="YR" Amount="492.00"/>
+                              <Tax TicketCode="ZZ" Amount="360.00"/>
+                           </Taxes>
+                           <TicketStock CRS="1G" StockProvider="TCH" ValidatingCarrier="U6" AcctgCode="262"/>
+                        </Fare>
+                        <Fare FareRef="11">
+                           <PaxType AgeCat="INF" Count="1" PTC="INF"/>
+                           <Itinerary>
+                              <FlightSegmentDetails SegmentNumber="1" ReservationRefs="20" FareBasis="XSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="2" ReservationRefs="21" FareBasis="XSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="3" ReservationRefs="22" FareBasis="NSVXOW"/>
+                              <FlightSegmentDetails SegmentNumber="4" ReservationRefs="23" FareBasis="NSVXOW"/>
+                           </Itinerary>
+                           <Price Total="1000.00" Currency="RUB" BaseCurrency="RUB" EquivFare="1000.00" Taxes="0.00" BaseFare="1000.00"/>
+                           <Taxes/>
+                           <TicketStock CRS="1G" StockProvider="TCH" ValidatingCarrier="U6" AcctgCode="262"/>
+                        </Fare>
+                     </Fares>
+                     <Ticketing eTicket="true" TimeLimit="2013-02-07T03:59:00+04:00"/>
+                     <Changes>
+                        <VoluntaryRefund PenaltyType="5" PenaltyText="refundable with penalty in some cases"/>
+                     </Changes>
+                  </FareInfo>
+                  <BookingGuidelines RussianNamesSupported="true"/>
+               </ShopOption>
+            </ShopOptions>
+         </SIG_AirShopRS>
