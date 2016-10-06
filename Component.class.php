@@ -14,6 +14,7 @@ class Component
         switch ($action) {
             case self::ACTION_GET_FLIGHT_FROM_XML: {
                 $xml = file_get_contents('load/data.xml');
+                $xml = new SimpleXMLElement($xml);
                 $this->ActionGetFlightFromXML($xml);
                 break;
             }

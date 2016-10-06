@@ -48,9 +48,9 @@ CREATE TABLE `airports` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8
 
 
-Console:
-cd project folder
-php -S localhost:8001
-
-Browser:
+Console:\n
+cd project folder\n
+php -S localhost:8001\n
+\n
+Browser:\n
 http://localhost:8001?ACTION=GET_FLIGHT_FROM_XML

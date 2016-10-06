@@ -21,13 +21,12 @@ class SearchFlight
 
     /**
      * Parsing xml data to an array
-     * @param $xml - a XML string
+     * @param SimpleXMLElement $xmlData
      */
-    protected function parseFlightFromXML($xml)
+    protected function parseFlightFromXML($xmlData)
     {
         //parse - in xml - out data
         $this->data = array();
-        $xmlData = new SimpleXMLElement($xml);
 
         if ($xmlData->Result == 'SUCCESS') {
             foreach ($xmlData->ShopOptions as $shopOptions) {
