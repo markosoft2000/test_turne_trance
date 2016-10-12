@@ -62,8 +62,11 @@ abstract class DB
     }
 
     public static function dropInstance() {
-        unset(static::$instances[static::$name]);
-        return static::$instances[static::$name];
+        if (isset(static::$instances[static::$name])) {
+            static::$instances[static::$name]->close();
+            unset(static::$instances[static::$name]);
+            return static::$instances[static::$name];
+        }
     }
 
     private static function getHost() {
